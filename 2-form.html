@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/styles-772092ea.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-778da609.css">
+    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/styles-50670153.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/styles-bf21ed73.css">
   </head>
   <body>
     <a href="./index.html">BACK</a>
+    <form class="feedback-form" autocomplete="off">
+      <label class="email-label">
+        Email
+        <input type="email" name="email" autofocus />
+      </label>
+      <label class="message-label">
+        Message
+        <textarea name="message" rows="8"></textarea>
+      </label>
+      <button type="submit" class="button">Submit</button>
+    </form>
+
     
   </body>
 </html>
